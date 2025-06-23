@@ -1,6 +1,6 @@
 /* --- NAVIGATION --- */
 .navbar {
-  background-color: #003366;
+  
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
@@ -19,7 +19,7 @@
 }
 
 .nav-links a {
-  color: white;
+  
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
@@ -33,7 +33,7 @@
 .hero-pro {
   background: linear-gradient(rgba(0, 0, 51, 0.65), rgba(0, 0, 51, 0.65)),
               url('logo2.jpg') center/cover no-repeat;
-  height: 100vh;
+  height: 48vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,23 +51,17 @@
 }
 
 .hero-content h1 {
-  font-size: 3em;
-  margin-bottom: 20px;
+  font-size: 2em;
+
 }
 
 .highlight {
   color: #ffcc00;
 }
 
-.hero-content p {
-  font-size: 1.2em;
-  margin-bottom: 30px;
-  font-weight: 300;
-}
-
 .cta-button {
   background-color: #ffcc00;
-  color: #003366;
+  
   font-size: 1.1em;
   padding: 14px 30px;
   border: none;
@@ -158,3 +152,4 @@
   color: #ffcc00;
   font-weight: bold;
 }
+

@@ -292,3 +292,35 @@ button[type="submit"]:hover {
   color: #444;
   line-height: 1.6;
 }
+/* --- À PROPOS --- */
+.about-section {
+  padding: 80px 30px;
+  background: #fdfdfd;
+  color: #333;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.4em;
+  color: #003366;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.05em;
+  line-height: 1.8;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+}
+
+.signature {
+  margin-top: 40px;
+  font-style: italic;
+  text-align: right;
+  color: #003366;
+}
