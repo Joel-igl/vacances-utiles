@@ -1,0 +1,36 @@
+.faq {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fbff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 51, 102, 0.1);
+}
+
+.faq section {
+  margin-bottom: 30px;
+}
+
+.faq h2 {
+  font-size: 1.2em;
+  color: #003366;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.faq h2::before {
+  content: "❓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.2em;
+}
+
+.faq p {
+  font-size: 1em;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
